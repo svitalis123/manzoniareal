@@ -1,0 +1,40 @@
+.payment{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+    
+}
+.row{
+    display: flex;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 100%;
+}
+.buttona{
+    height: 30px;
+    background-color: rgba(255, 166, 0, 0.637);
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:  2px 2px 2px 2px rgba(255, 166, 0, 0.288);
+    margin-top: 15px;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: capitalize;
+    transform: border 1s;
+}
+.buttona:hover{
+    background-color: rgb(255, 166, 0);
+}
+.rowleft{
+    flex: 0.2;
+    width: 100%;
+}
+.rowright{
+    flex: 0.8;
+    width: 100%;
+}
+.rowright>form{
+    max-width: 400px;
+}

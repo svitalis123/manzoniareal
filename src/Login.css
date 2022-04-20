@@ -1,0 +1,37 @@
+.imgs{
+    width: 100px;
+    transform: translateX(120%);
+    object-fit: contain;
+    filter: invert(1);
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .MuiFormControl-root{
+    display: flex;
+    transform: translateY(50%);
+    width: 350px;
+    max-height: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.input1, .input2{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.input1 .MuiInput-root{
+    margin-left: 30px;
+}
+.MuiButton-root{
+    margin: 6px;
+}
+.content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

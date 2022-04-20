@@ -1,0 +1,18 @@
+.basket{
+    display: flex;
+}
+.basket__left{
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    width: 100%;
+}
+.basket__left>img{
+    object-fit: contain;
+    width: 100%;
+}
+.basket__right{
+    display: flex;
+    width: 100%;
+    flex: 0.2;
+}

@@ -1,0 +1,24 @@
+*{
+    top: 0%;
+    margin: 0%;
+}
+.each-slide > div {
+    display: flex;
+    /*margin-top: 50px;*/
+    align-items: center;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  .img1{
+    mask-image: linear-gradient(to bottom rgba(0,0,0,1) rgba(0,0,0,0));
+  }
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }

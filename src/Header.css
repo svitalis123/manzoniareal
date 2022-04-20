@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(102, 97, 97);
+    color: white;
+    
+}
+.header>img{
+    cursor: pointer;
+    object-fit: fill;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.header__input{
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.header__input>span{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: darkgray;
+    margin-top: 10px;
+}
+.header__input>span .MUiSvgIcon-root{
+    font-size: xx-large;
+}
+.myinput{
+    width: 100%;
+    filter: invert(1);
+}
+.header__navigation{
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.option{
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.header__basket{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__basket >span{
+  margin-left: 2px;
+}

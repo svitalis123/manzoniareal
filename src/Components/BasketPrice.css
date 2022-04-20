@@ -1,0 +1,12 @@
+.basketprice{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+.checkoutbutton{
+    margin-bottom: 10px;
+}

@@ -61,7 +61,7 @@ The project features a user-friendly interface that allows customers to easily b
 
 ### Live Demo
 
-[Live Demo](svitalis123.github.io/tesla-amazon/)
+[Live Demo](https://svitalis123.github.io/tesla-amazon/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
